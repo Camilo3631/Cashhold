@@ -1,1 +1,18 @@
-* text=auto eol=lf
+echo "# Ignorar archivos generados por Nuxt/Node
+.output linguist-vendored
+.data linguist-vendored
+.nuxt linguist-vendored
+.nitro linguist-vendored
+.cache linguist-vendored
+dist linguist-vendored
+node_modules linguist-vendored
+
+# Ignorar logs
+logs linguist-vendored
+*.log linguist-vendored
+
+# Etiquetar lenguajes principales
+*.vue linguist-language=Vue
+*.js linguist-language=JavaScript
+*.ts linguist-language=TypeScript
+*.css linguist-language=CSS" > .gitattributes

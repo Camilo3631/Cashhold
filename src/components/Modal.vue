@@ -42,7 +42,7 @@
 </template>
 
 <script setup>
-import { ref, onMounted, onUnmounted, defineEmits } from 'vue'
+import { ref, onMounted, onUnmounted } from 'vue'
 
 const emit = defineEmits(['close'])
 const showModal = ref(false)

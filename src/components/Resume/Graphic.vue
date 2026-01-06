@@ -43,10 +43,8 @@
 <script setup>
 import {
   ref,
-  defineProps,
   toRefs,
   computed,
-  defineEmits,
   watch
 } from 'vue'
 
