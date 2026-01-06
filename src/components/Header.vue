@@ -1,8 +1,8 @@
 <template>
    <header
     class="
-    fixed top-0 left-0 z-50
-    w-full h-24
+    fixed top-0 left-0 z-20
+    w-full h-19
     bg-slate-800
     flex items-center"
     >
@@ -10,7 +10,7 @@
       class="
       w-full
       mx-auto
-      flex items-center justify-between
+      flex items-center justify-between 
       px-4
       sm:px-6
       md:px-10
@@ -23,7 +23,7 @@
         class="
          w-14 h-14
          cursor-pointer
-         ml-0
+         ml-3
          sm:ml-2
          md:ml-4
          "

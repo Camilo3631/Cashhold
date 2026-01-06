@@ -1,5 +1,5 @@
 <template>
-  <main class="flex flex-col items-center justify-center w-full min-h-screen bg-slate-800 px-4 sm:px-6 md:px-8 lg:px-10 xl:px-12">
+  <main class="flex flex-col items-center justify-center w-full  bg-slate-800 px-4 sm:px-6 md:px-8 lg:px-10 xl:px-12">
      <!-- Contenedor responsivo -->
    <div class="w-full sm:w-11/12 md:w-10/12 lg:w-8/12 mx-auto">
 

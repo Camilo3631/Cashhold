@@ -8,3 +8,19 @@ body {
   height: 100%;
 
 }
+
+input[type="number"] {
+  appearance: textfield;
+  /* estándar */
+  -moz-appearance: textfield;
+  /* Firefox */
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  appearance: none;
+  /* estándar */
+  -webkit-appearance: none;
+  /* Chrome / Safari */
+  margin: 0;
+}
