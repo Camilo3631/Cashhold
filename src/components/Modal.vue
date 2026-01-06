@@ -9,8 +9,7 @@
       class="
         w-full
         max-w-[360px] sm:max-w-sm md:max-w-md
-        h-[480px]
-        md:h-[79vh]
+        h-[520px] md:h-[79vh]   <!-- 🔹 móvil fijo, desktop vh -->
          mt-9
          mb-2
         rounded-lg
