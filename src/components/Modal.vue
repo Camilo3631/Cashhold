@@ -55,7 +55,8 @@ const checkVisibility = () => {
   const isMobile = Math.min(width, height) < 768
 
   if (isMobile) {
-    showModal.value = isPortrait && width >= 390
+    showModal.value = isPortrait && width >= 375
+    
   } else {
     showModal.value = true
   }
