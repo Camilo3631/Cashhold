@@ -8,10 +8,10 @@
     <div
       class="
         w-full
-        max-w-[370px] sm:max-w-sm md:max-w-md
+        max-w-[360px] sm:max-w-sm md:max-w-md
         max-h-[79vh]
          mt-9
-         mb-1
+         mb-2
         rounded-lg
         shadow-md
         bg-slate-600
@@ -55,7 +55,7 @@ const checkVisibility = () => {
   const isMobile = Math.min(width, height) < 768
 
   if (isMobile) {
-    showModal.value = isPortrait && width >= 375
+    showModal.value = isPortrait && width >= 360
   } else {
     showModal.value = true
   }
