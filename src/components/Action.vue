@@ -2,7 +2,7 @@
   <!-- Botón principal para abrir la modal -->
   <button
     @click="showModal = true"
-    class="w-full sm:w-auto px-6 py-3 rounded-full bg-red-700 text-white text-lg sm:text-xl font-semibold hover:bg-red-600">
+    class="px-6 py-2 rounded-full bg-red-700 text-white text-lg sm:text-xl font-semibold hover:bg-red-600">
       Agregar Movimiento
   </button>
 
@@ -99,14 +99,7 @@
         <div class="flex justify-center">
           <button
             type="submit"
-            class="w-full sm:w-auto
-                   px-4 py-2
-                   rounded-full
-                   bg-red-700 text-white
-                   text-sm sm:text-lg
-                   font-semibold
-                   hover:bg-red-600
-                   active:scale-[0.98]">
+            class="px-6 py-2 rounded-full bg-red-700 text-white text-sm sm:text-lg font-semibold hover:bg-red-600 active:scale-[0.98]">
             Agregar Movimiento
           </button>
         </div>

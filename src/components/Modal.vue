@@ -9,7 +9,7 @@
       class="
         w-full
         max-w-[360px] sm:max-w-sm md:max-w-md
-        max-h-[79vh]
+        h-[520px]
          mt-9
          mb-2
         rounded-lg
