@@ -2,7 +2,7 @@
   <!-- Overlay -->
   <div
     v-if="showModal"
-    class="fixed inset-0 z-40 flex items-start sm:items-center justify-center bg-black/50 px-2"
+    class="fixed inset-0 z-40 flex items-center  sm:items-center justify-center bg-black/50 px-2"
   >
     <!-- Modal -->
     <div
@@ -12,15 +12,14 @@
         sm:max-w-sm
         md:max-w-md
 
-        /* 📱 móvil (px) */
-        max-h-[520px]
-        mt-8
-        mb-8
+        /* 📱 móvil */
+        max-h-[580px]
+     
 
-        /* 📲 tablet + pc (vh) */
-        sm:max-h-[79vh]
-        sm:mt-9
+        /* 📲 tablet + pc */
+        sm:mt-0
         sm:mb-2
+        sm:h-auto
 
         rounded-lg
         shadow-md
@@ -30,7 +29,7 @@
       "
     >
       <!-- Header -->
-      <div class="flex justify-between items-center px-3 py-2 border-b border-gray-300 shrink-0">
+      <div class="flex justify-between items-center px-3 py-2 border-b border-gray-300">
         <p class="text-sm font-semibold text-white">
           Nuevo movimiento
         </p>
@@ -43,8 +42,8 @@
         />
       </div>
 
-      <!-- Body -->
-      <div class="px-3 py-3 overflow-y-auto">
+      <!-- Body (SIN SCROLL) -->
+      <div class="px-3 py-3 flex-1">
         <slot />
       </div>
     </div>

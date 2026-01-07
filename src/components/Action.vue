@@ -53,7 +53,7 @@
         <div class="flex flex-col mb-3">
           <label class="mb-1 text-sm font-medium">Descripción</label>
           <textarea
-            rows="5"
+            rows="4"
             v-model="description"
             class="border-2 border-red-700
                    rounded-md
