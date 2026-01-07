@@ -17,6 +17,7 @@
      
 
         /* 📲 tablet + pc */
+        sm:max-h-[79vh]
         sm:mt-0
         sm:mb-2
         sm:h-auto
