@@ -14,8 +14,8 @@
 
         /* 📱 móvil (px) */
         max-h-[520px]
-        mt-2
-        mb-2
+        mt-8
+        mb-8
 
         /* 📲 tablet + pc (vh) */
         sm:max-h-[79vh]
