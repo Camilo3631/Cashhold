@@ -1,66 +1,53 @@
-# Cashhold
+# 💰 Cashhold
 
-This template should help get you started developing with Vue 3 in Vite.
+Aplicación de control de gastos personales con visualización de datos en tiempo real.
 
-## Recommended IDE Setup
+![Vue.js](https://img.shields.io/badge/Vue.js-3-42b883?style=flat&logo=vue.js)
+![Vite](https://img.shields.io/badge/Vite-5-646cff?style=flat&logo=vite)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-3-38bdf8?style=flat&logo=tailwindcss)
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## 🚀 Demo en vivo
 
-## Recommended Browser Setup
+[cashhold.netlify.app](https://cashhold.netlify.app/)
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd) 
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+## 📸 Capturas
 
-## Customize configuration
+| Dashboard | Con datos | Nuevo movimiento |
+|---|---|---|
+| ![Dashboard vacío](screenshots/dashboard-vacio.png) | ![Dashboard con gráfico](screenshots/dashboard-grafico.png) | ![Modal](screenshots/modal.png) |
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+## ✨ Características
 
-## Project Setup
+- 📥 Registro de ingresos y egresos
+- 📊 Gráficos personalizados sin librerías externas
+- 💾 Balance automático actualizado en tiempo real
+- 🗂️ Historial de transacciones con eliminación de movimientos
+- 💿 Datos persistidos en localStorage
+- ⏳ Pantalla de carga
 
-```sh
+## 🛠️ Tecnologías
+
+| Tecnología | Uso |
+|---|---|
+| Vue.js 3 | Framework principal |
+| Vite | Bundler y entorno de desarrollo |
+| Tailwind CSS | Estilos y diseño responsive |
+
+## 📦 Instalación
+
+```bash
+git clone https://github.com/Camilo3631/Cashhold.git
+cd Cashhold
 npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
 npm run dev
 ```
 
-### Compile and Minify for Production
+## 🏗️ Build para producción
 
-```sh
+```bash
 npm run build
 ```
 
-### Run Unit Tests with [Vitest](https://vitest.dev/)
+---
 
-```sh
-npm run test:unit
-```
-
-### Run End-to-End Tests with [Cypress](https://www.cypress.io/)
-
-```sh
-npm run test:e2e:dev
-```
-
-This runs the end-to-end tests against the Vite development server.
-It is much faster than the production build.
-
-But it's still recommended to test the production build with `test:e2e` before deploying (e.g. in CI environments):
-
-```sh
-npm run build
-npm run test:e2e
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+Desarrollado por [Camilo Acosta](https://acostaweb.es/es)
